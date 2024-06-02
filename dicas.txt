@@ -1,0 +1,9 @@
+abrir a pasta com o atalho
+
+
+clique direito + abrir com git bash
+
+code .
+enter
+
+abre a pasta do vscode pronto
