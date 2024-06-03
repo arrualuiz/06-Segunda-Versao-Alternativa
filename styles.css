@@ -36,9 +36,79 @@ header {
     flex: 1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center; /* Centraliza o texto nas colunas */
+    text-align: center;
 }
 
 .column h3 {
     text-align: center;
+}
+
+#register-idea-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register-idea-btn:hover {
+    background-color: #555;
+}
+
+#idea-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#idea-panel-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    text-align: center;
+}
+
+#close-panel {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#idea-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-idea {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-idea:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
 }
